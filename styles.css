@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    width: 300px;
+    height: 440px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    border: 1px solid hsl(0, 0%, 7%);
+    flex-direction: column;
+    justify-content:flex-start;
+    box-shadow: 7px 7px 0 0 hsl(0, 0%, 7%) ;
+}
+
+.container img {
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.learn {
+    background-color: hsl(47, 88%, 63%) ;
+    font-weight: bold;
+    font-family: Figtree;
+    text-align: center;
+    width: 70px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.pubg {
+    color: hsl(0, 0%, 7%);
+    font-family: figtree;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container h1 {
+    font-family: figtree;
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 850;
+    color:  hsl(0, 0%, 7%);
+
+}
+
+.importance {
+    font-family: figtree;
+    color: hsl(0, 0%, 42%);
+}
+
+.flow {
+    display: flex;
+    gap:15px ;
+}
+
+.flow img {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.flow p {
+    font-family: figtree;
+    font-weight: 800;
+}
